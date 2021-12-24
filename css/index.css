@@ -3,3 +3,10 @@
 @import url(pic.css);
 @import url(body.css);
 @import url(button.css);
+@import url(boxscale.css);
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
