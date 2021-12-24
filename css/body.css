@@ -1,6 +1,11 @@
 body {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: thistle;
+}
+
+#title-div {
+  height: 100px;
+  width: 100%;
 }

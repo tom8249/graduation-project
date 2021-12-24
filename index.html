@@ -8,18 +8,19 @@
     <title>Graduation Project</title>
 </head>
 <body>
-    <header>Welcome to graduation project</header>
+    <div id="title-div">
+        <p>탈모 진단 어플리케이션 demo</p>
+    </div>
     <!--누르면 문진표 나오게 설정하기-->
-    <input type="button" id="show"  value="문진표 작성하기">
-
-    <form id="questionnaire" style="display: none;">
+    <div>
+        <input type="button" id="show"  value="문진표 작성하기">
+    </div>
+    <form id="questionnaire"  style="display: none;">
             <div id="questionnaire-gender">
                 <p>
                     <p>성별을 선택하세요</p>
-                        <br>
                             <input type="radio" name="gender" id="male"> <label for="male">남</label>
                             <input type="radio" name="gender" id="female"> <label for="female">여</label>
-                        </br>
                 </p>
             </div>
             
