@@ -11,7 +11,7 @@
     <div id="title-div">
         <p>탈모 진단 어플리케이션 demo</p>
     </div>
-    <!--누르면 문진표 나오게 설정하기 ddddd-->
+    <!--누르면 문진표 나오게 설정하기-->
     <div>
         <input type="button" id="show"  value="문진표 작성하기">
     </div>
@@ -19,100 +19,100 @@
             <div id="questionnaire-gender">
                 <p>
                     <p>성별을 선택하세요</p>
-                            <input type="radio" name="gender" id="male"> <label for="male">남</label>
-                            <input type="radio" name="gender" id="female"> <label for="female">여</label>
+                            <input type="radio" name="gender" id="male" value="0"> <label for="male">남</label>
+                            <input type="radio" name="gender" id="female" value="1"> <label for="female">여</label>
                 </p>
             </div>
             
             <div id="questionnaire-age">
                 <p>
                     <p>연령대를 선택하세요</p>
-                    <input type="radio" id="10" class="age" name="age"> <label for="10">10대</label>
-                    <input type="radio" id="20" class="age" name="age"> <label for="10">20대</label>
-                    <input type="radio" id="30" class="age" name="age"> <label for="30">30대</label>
-                    <input type="radio" id="40" class="age" name="age"> <label for="40">40대</label>
-                    <input type="radio" id="50" class="age" name="age"> <label for="50">50대</label>
-                    <input type="radio" id="60" class="age" name="age"> <label for="60">60대</label>
-                    <input type="radio" id="70" class="age" name="age"> <label for="70">70대</label>
-                    <input type="radio" id="80" class="age" name="age"> <label for="80">80대</label>
-                    <input type="radio" id="90" class="age" name="age"> <label for="90">90대</label>
-                    <input type="radio" id="100" class="age" name="age"> <label for="100">100대</label>
-                    <input type="radio" id="110" class="age" name="age"> <label for="110">110대</label>
+                    <input type="radio" id="20" class="age" name="age" value="0"> <label for="10">20대</label>
+                    <input type="radio" id="30" class="age" name="age" value="1"> <label for="30">30대</label>
+                    <input type="radio" id="10" class="age" name="age" value="2"> <label for="10">10대</label>
+                    <input type="radio" id="40" class="age" name="age" value="3"> <label for="40">40대</label>
+                    <input type="radio" id="50" class="age" name="age" value="4"> <label for="50">50대</label>
+                    <input type="radio" id="60" class="age" name="age" value="5"> <label for="60">60대</label>
+                    <input type="radio" id="70" class="age" name="age" value="6"> <label for="70">70대</label>
+                    <input type="radio" id="80" class="age" name="age" value="7"> <label for="80">80대</label>
+                    <input type="radio" id="90" class="age" name="age" value="8"> <label for="90">90대</label>
+                    <input type="radio" id="100" class="age" name="age" value="9"> <label for="100">100대</label>
+                    <input type="radio" id="110" class="age" name="age" value="10"> <label for="110">110대</label>
                 </p>
             </div>
 
             <div id="questionnaire-shampoo">
                 <p>
                     <p>샴푸 사용 빈도</p>
-                    <input type="radio" id="1-day"name="shampoo"><label for="1-day">1일 1회</label>
-                    <input type="radio" id="2-day"name="shampoo"><label for="2-day">1일 2회</label>
-                    <input type="radio" id="1-2day"name="shampoo"><label for="1-2day">2일 1회</label>
+                    <input type="radio" id="1-day"name="shampoo" value="0"><label for="1-day">1일 1회</label>
+                    <input type="radio" id="2-day"name="shampoo" value="1"><label for="2-day">1일 2회</label>
+                    <input type="radio" id="1-2day"name="shampoo" value="2"><label for="1-2day">2일 1회</label>
                 </p>
             </div>
 
             <div id="questionnaire-perm">
                 <p>
                     <p>펌 주기</p>
-                    <input type="radio" id="no-perm"name="perm"><label for="no-perm">하지않음</label>
-                    <input type="radio" id="1~3-1year"name="perm"><label for="1~3-1year">1~3회/연</label>
-                    <input type="radio" id="4~6-1year"name="perm"><label for="4~6-1year">4~6회/연</label>
-                    <input type="radio" id="7over-year"name="perm"><label for="7over-year">7회 이상/연</label>
+                    <input type="radio" id="no-perm"name="perm" value="0"><label for="no-perm">하지않음</label>
+                    <input type="radio" id="1~3-1year"name="perm" value="1"><label for="1~3-1year">1~3회/연</label>
+                    <input type="radio" id="4~6-1year"name="perm" value="2"><label for="4~6-1year">4~6회/연</label>
+                    <input type="radio" id="7over-year"name="perm" value="3"><label for="7over-year">7회 이상/연</label>
                 </p>
             </div>
 
             <div id="questionnaire-dye">
                 <p>
                     <p>염색 주기(자가 염색 포함)</p>
-                    <input type="radio" id="no-dye"name="dye"><label for="no-dye">하지않음</label>
-                    <input type="radio" id="1~3t-1year"name="dye"><label for="1~3t-1year">1~3회/연</label>
-                    <input type="radio" id="4~6t-1year"name="dye"><label for="4~6t-1year">4~6회/연</label>
-                    <input type="radio" id="7t-1year"name="dye"><label for="7t-1year">7회 이상/연</label>
+                    <input type="radio" id="no-dye"name="dye" value="1"><label for="no-dye">하지않음</label>
+                    <input type="radio" id="1~3t-1year"name="dye" value="2"><label for="1~3t-1year">1~3회/연</label>
+                    <input type="radio" id="4~6t-1year"name="dye" value="3"><label for="4~6t-1year">4~6회/연</label>
+                    <input type="radio" id="7t-1year"name="dye" value="4"><label for="7t-1year">7회 이상/연</label>
                 </p>
             </div>
 
             <div id="questionnaire-haircondition">
                 <p>
                     <p>현재 모발 상태</p>
-                    <input type="checkbox" id="questionnaire-haircondition1"><label for="questionnaire-haircondition1">모발이식/시술</label>
-                    <input type="checkbox" id="questionnaire-haircondition2"><label for="questionnaire-haircondition2">가발 사용(붙임머리 포함)</label>
-                    <input type="checkbox" id="questionnaire-haircondition3"><label for="questionnaire-haircondition3">염색 모발</label>
-                    <input type="checkbox" id="questionnaire-haircondition4"><label for="questionnaire-haircondition4">기타</label>
+                    <input type="checkbox" id="questionnaire-haircondition1" name="haircondition" value="0"><label for="questionnaire-haircondition1">모발이식/시술</label>
+                    <input type="checkbox" id="questionnaire-haircondition2" name="haircondition" value="1"><label for="questionnaire-haircondition2">가발 사용(붙임머리 포함)</label>
+                    <input type="checkbox" id="questionnaire-haircondition3" name="haircondition" value="2"><label for="questionnaire-haircondition3">염색 모발</label>
+                    <input type="checkbox" id="questionnaire-haircondition4" name="haircondition" value="3"><label for="questionnaire-haircondition4">기타</label>
                 </p>
             </div>
 
             <div id="questionnaire-usingitem">
                 <p>
                     <p>현재 사용하고있는 두피 모발용 상품</p>
-                    <input type="checkbox" id="questionnaire-usingitem1"><label for="questionnaire-usingitem1">샴푸</label>
-                    <input type="checkbox" id="questionnaire-usingitem2"><label for="questionnaire-usingitem2">린스</label>
-                    <input type="checkbox" id="questionnaire-usingitem3"><label for="questionnaire-usingitem3">트리트먼트</label>
-                    <input type="checkbox" id="questionnaire-usingitem4"><label for="questionnaire-usingitem4">헤어 에센스</label>
-                    <input type="checkbox" id="questionnaire-usingitem5"><label for="questionnaire-usingitem5">헤어 스타일링제</label>
-                    <input type="checkbox" id="questionnaire-usingitem6"><label for="questionnaire-usingitem6">두피 스케일링제</label>
-                    <input type="checkbox" id="questionnaire-usingitem7"><label for="questionnaire-usingitem7">두피 세럼</label>
+                    <input type="checkbox" id="questionnaire-usingitem1" value="0" name="usingitem"><label for="questionnaire-usingitem1">샴푸</label>
+                    <input type="checkbox" id="questionnaire-usingitem2" value="1" name="usingitem"><label for="questionnaire-usingitem2">린스</label>
+                    <input type="checkbox" id="questionnaire-usingitem3" value="2" name="usingitem"><label for="questionnaire-usingitem3">트리트먼트</label>
+                    <input type="checkbox" id="questionnaire-usingitem4" value="3" name="usingitem"><label for="questionnaire-usingitem4">헤어 에센스</label>
+                    <input type="checkbox" id="questionnaire-usingitem5" value="4" name="usingitem"><label for="questionnaire-usingitem5">헤어 스타일링제</label>
+                    <input type="checkbox" id="questionnaire-usingitem6" value="5" name="usingitem"><label for="questionnaire-usingitem6">두피 스케일링제</label>
+                    <input type="checkbox" id="questionnaire-usingitem7" value="6" name="usingitem"><label for="questionnaire-usingitem7">두피 세럼</label>
                 </p>
             </div>
 
             <div id="questionnaire-scalpitem">
                 <p>
                     <span>맞춤두피케어 제품사용을 희망(선호)하시나요?</span>
-                    <input type="radio" name="scalpitem" id="y"><label for="y">네</label>
-                    <input type="radio" name="scalpitem" id="n"><label for="n">아니요</label>
+                    <input type="radio" name="scalpitem" id="y" value="0"><label for="y">네</label>
+                    <input type="radio" name="scalpitem" id="n" value="1"><label for="n">아니요</label>
                 </p>
             </div>
 
             <div id="questionnaire-consider">
                 <p>
                     <p>샴푸 구매시 중요시 고려하는 부분은 무엇인가요?</p>
-                    <input type="radio" name="consider" id="questionnaire-consider1"><label for="questionnaire-consider1">행굼 후 느낌</label>
-                    <input type="radio" name="consider" id="questionnaire-consider2"><label for="questionnaire-consider2">두피자극</label>
-                    <input type="radio" name="consider" id="questionnaire-consider3"><label for="questionnaire-consider3">세정력</label>
-                    <input type="radio" name="consider" id="questionnaire-consider4"><label for="questionnaire-consider4">향</label>
-                    <input type="radio" name="consider" id="questionnaire-consider5"><label for="questionnaire-consider5">머릿결</label>
-                    <input type="radio" name="consider" id="questionnaire-consider6"><label for="questionnaire-consider6">가격</label>
+                    <input type="radio" name="consider" id="questionnaire-consider1" value="0"><label for="questionnaire-consider1">행굼 후 느낌</label>
+                    <input type="radio" name="consider" id="questionnaire-consider2" value="1"><label for="questionnaire-consider2">두피자극</label>
+                    <input type="radio" name="consider" id="questionnaire-consider3" value="2"><label for="questionnaire-consider3">세정력</label>
+                    <input type="radio" name="consider" id="questionnaire-consider4" value="3"><label for="questionnaire-consider4">향</label>
+                    <input type="radio" name="consider" id="questionnaire-consider5" value="4"><label for="questionnaire-consider5">머릿결</label>
+                    <input type="radio" name="consider" id="questionnaire-consider6" value="5"><label for="questionnaire-consider6">가격</label>
                 </p>
             </div>
-            <input type="button" id="hide"  value="제출하기">
+            <input type="button" id="hide"  value="제출하기" onclick="submitClick()">
     </form>
 
     <div id="status-bar">
@@ -134,5 +134,7 @@
     <script src="js/form.js"></script>
     <script src="js/checkbox.js"></script>
     <script src="js/value.js"></script>
+    <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+
 </body>
 </html>
