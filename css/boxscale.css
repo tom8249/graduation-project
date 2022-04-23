@@ -1,4 +1,4 @@
-@keyframes boxscale {
+/* @keyframes boxscale {
   0% {
     animation-delay: 0.1s;
   }
@@ -19,4 +19,4 @@
 #questionnaire {
   animation: boxscale 0.8s ease-in-out;
   animation-delay: 0.1s;
-}
+} */

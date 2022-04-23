@@ -7,18 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Graduation Project</title>
   </head>
-  <body>
-    <div>
-        <input type="button" id="show"  value="문진표 작성하기">
-    </div>
-    <form id="questionnaire"  style="display: none;">
+  <body class="form-body">
+
+    <form id="questionnaire">
             <div id="questionnaire-gender">
                 <p>
                     <p>성별을 선택하세요</p>
                             <input type="radio" name="gender" id="male" value="0"> <label for="male">남</label>
                             <input type="radio" name="gender" id="female" value="1"> <label for="female">여</label>
                 </p>
+                <hr/>
             </div>
+            
             
             <div id="questionnaire-age">
                 <p>
@@ -35,6 +35,8 @@
                     <input type="radio" id="100" class="age" name="age" value="9"> <label for="100">100대</label>
                     <input type="radio" id="110" class="age" name="age" value="10"> <label for="110">110대</label>
                 </p>
+                <hr/>
+
             </div>
 
             <div id="questionnaire-shampoo">
@@ -44,6 +46,8 @@
                     <input type="radio" id="2-day"name="shampoo" value="1"><label for="2-day">1일 2회</label>
                     <input type="radio" id="1-2day"name="shampoo" value="2"><label for="1-2day">2일 1회</label>
                 </p>
+                <hr/>
+
             </div>
 
             <div id="questionnaire-perm">
@@ -54,6 +58,8 @@
                     <input type="radio" id="4~6-1year"name="perm" value="2"><label for="4~6-1year">4~6회/연</label>
                     <input type="radio" id="7over-year"name="perm" value="3"><label for="7over-year">7회 이상/연</label>
                 </p>
+                <hr/>
+
             </div>
 
             <div id="questionnaire-dye">
@@ -64,6 +70,8 @@
                     <input type="radio" id="4~6t-1year"name="dye" value="3"><label for="4~6t-1year">4~6회/연</label>
                     <input type="radio" id="7t-1year"name="dye" value="4"><label for="7t-1year">7회 이상/연</label>
                 </p>
+                <hr/>
+
             </div>
 
             <div id="questionnaire-haircondition">
@@ -74,6 +82,8 @@
                     <input type="checkbox" id="questionnaire-haircondition3" name="haircondition" value="2"><label for="questionnaire-haircondition3">염색 모발</label>
                     <input type="checkbox" id="questionnaire-haircondition4" name="haircondition" value="3"><label for="questionnaire-haircondition4">기타</label>
                 </p>
+                <hr/>
+
             </div>
 
             <div id="questionnaire-usingitem">
@@ -87,6 +97,8 @@
                     <input type="checkbox" id="questionnaire-usingitem6" value="5" name="usingitem"><label for="questionnaire-usingitem6">두피 스케일링제</label>
                     <input type="checkbox" id="questionnaire-usingitem7" value="6" name="usingitem"><label for="questionnaire-usingitem7">두피 세럼</label>
                 </p>
+                <hr/>
+
             </div>
 
             <div id="questionnaire-scalpitem">
@@ -95,6 +107,7 @@
                     <input type="radio" name="scalpitem" id="y" value="0"><label for="y">네</label>
                     <input type="radio" name="scalpitem" id="n" value="1"><label for="n">아니요</label>
                 </p>
+                <hr/>
             </div>
 
             <div id="questionnaire-consider">
@@ -107,9 +120,10 @@
                     <input type="radio" name="consider" id="questionnaire-consider5" value="4"><label for="questionnaire-consider5">머릿결</label>
                     <input type="radio" name="consider" id="questionnaire-consider6" value="5"><label for="questionnaire-consider6">가격</label>
                 </p>
+              <hr/>
             </div>
-            <input type="button" id="hide"  value="제출하기" onclick="submitClick()">
     </form>
+    <input type="button" class="submit"  value="제출하기" onclick="submitClick()">
 
     <div class="nav">
       <ul class="nav__list">
@@ -120,17 +134,17 @@
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="form.html">
-            <i class="far fa-comment fa-2x"></i>
+            <i class="fas fa-search fa-2x"></i>
           </a>
         </li>
         <li class="nav__btn">
-          <a class="nav__link" href="result.html"
-            ><i class="fas fa-search fa-2x"></i
-          ></a>
+          <a class="nav__link" href="pic.html">
+            <i class="fa-solid fa-camera fa-2x"></i>
+          </a>
         </li>
         <li class="nav__btn">
-          <a class="nav__link" href="contect.html">
-            <i class="fas fa-ellipsis-h fa-2x"></i>
+          <a class="nav__link" href="result.html">
+            <i class="fa-solid fa-square-poll-vertical fa-2x"></i>
           </a>
         </li>
       </ul>
