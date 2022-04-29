@@ -5,11 +5,10 @@
   grid-template-columns: 1fr;
   grid-template-rows: repeat(12, 1fr);
   gap: 3px;
-  margin: 3px;
 }
 
 .header {
-  background-color: tomato;
+  background-color: #fdf5d2;
   border-radius: 20px;
   grid-row: 2 / 4;
   display: flex;
@@ -19,7 +18,7 @@
 }
 
 .need {
-  background-color: wheat;
+  background-color: #fdf5d2;
   grid-row: 4 / 5;
   margin: 5px;
   border-radius: 10px;
@@ -32,8 +31,8 @@
 }
 
 .caution {
-  background-color: purple;
-  color: white;
+  background-color: #fdf5d2;
+  color: black;
   font-size: 20px;
   border-radius: 20px;
   grid-row: 5 / 11;
