@@ -13,11 +13,16 @@
   height: 30vh;
   border-radius: 10%;
   border: 3px solid black;
-  /* background-image: url("../png/3.jpeg"); */
+  background-image: url("../png/talmo.jpeg");
   background-size: 100% 100%;
 }
 
 .result-text {
   font-size: 30px;
-  margin-top: 15vh;
+  color: lightcoral;
+  margin-top: 10vh;
+}
+.result-text2 {
+  font-size: 25px;
+  margin-top: 5vh;
 }
